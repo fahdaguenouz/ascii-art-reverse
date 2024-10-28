@@ -20,7 +20,7 @@ if len(args)==1 && !strings.HasPrefix(args[0], "--reverse="){
 	return
 }else if len(args)==1 && strings.HasPrefix(args[0], "--reverse="){
 	reverse.Reverse(args)
-	fmt.Println("reverse worked ")
+
 
 }else if len(args)==2{
 
